@@ -19,7 +19,7 @@ print "http://shorturl.at/nCD13      "
 print "By: Anon script               "
 
 
-smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
+smtpserver = smtplib.SMTP_SSL("smtp.gmail.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
